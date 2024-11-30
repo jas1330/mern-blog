@@ -14,7 +14,7 @@ mongoose.connect(
 }).catch(err =>{
     console.log(err);
 })
-//Stopped at 1:19:25
+//Stopped at 2:19:25
 const app=express()
 app.use(express.json());
 app.listen(3000,()=> {
