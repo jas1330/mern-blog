@@ -70,7 +70,7 @@ export default function SignIn(){
                 <div className="">
                   <Label value='Your Password' />
                   <TextInput
-                  type="password" placeholder="Password" id='password' onChange={handleChange} />
+                  type="password" placeholder="***********" id='password' onChange={handleChange} />
 
                 </div>
                 <Button gradientDuoTone="purpleToBlue" type="submit" disabled={loading}>
